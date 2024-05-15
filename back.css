@@ -1,0 +1,34 @@
+body 
+{
+    font-family:  sans-serif;
+    background-color: black;
+    padding: 20px;
+}
+
+.container 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.success-message 
+{
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    color: green;
+    font-weight: bold;
+}
+
+.error-message 
+{
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    color: red;
+    font-weight: bold;
+}

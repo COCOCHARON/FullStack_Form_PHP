@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="log-in.png" type="image">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form action="signnewuser.php" method="post" >
+        <!--ring div starts here-->
+    <div class="ring">
+        <i style="--clr:#00ff40;"></i>
+        <i style="--clr:#ff0057;"></i>
+        <i style="--clr:#fffd44;"></i>
+        <div class="login">
+          <h2>Sign Up</h2>
+          <div class="inputBx">
+              <input type="text" name="firstname" placeholder="Firstname" required>
+            </div>
+          <div class="inputBx">
+              <input type="text" name="lastname" placeholder="Lastname" >
+            </div>
+            <div class="inputBx">
+                <input type="text" name="username" placeholder="Username" required>
+            </div>
+            <div class="inputBx">
+                <input type="password" name = "password" placeholder="Password" required>
+            </div>
+            
+            <div class="inputBx">
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+          <div class="inputBx">
+              <input type="tel" name="phone" placeholder="Phone Number" required>
+          </div>
+          <div class="inputBx">
+            <input type="submit" value="Sign Up" >
+          </div>
+          <div class="links">
+            <a href="resetpass.htm">Forget Password</a>
+            <a href="login.html">Login Here</a>
+          </div>
+        </div>
+      </div>
+      <!--ring div ends here-->
+  </form>
+    
+</body>
+</html>
